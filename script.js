@@ -8,9 +8,7 @@ const noBtn = document.querySelector(".no-btn");
 const userId = "User" + Math.floor(Math.random() * 1000);
 
 // Telegram Bot Information
-const botToken = '7985779846:AAH6mV7ds0GAtA7tSgT5aHanHqASYz1hJLg'; // Replace with your bot token
-const chatId = '6396706058'; // Replace with your chat ID
-
+const botToken 
 yesBtn.addEventListener("click", () => {
   // Update the text and GIF
   question.innerHTML = "I love you too! 😘";
